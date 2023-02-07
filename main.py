@@ -1,17 +1,21 @@
-import math
 
-def gridas_izmaksa(cena, linoleja_platums, telpas_platums, telpas_garums):
-    telpas_izmers = math.ceil(telpas_garums) * math.ceil(telpas_platums)
-    izmaksa = cena * telpas_izmers / linoleja_platums
+def telpas_cena(cena, linoleja_platums, telpas_garums, telpas_platums):
+  telpa(telpas_garums * telpas_platums)
+  izmaksas(telpa * linoleja_platums)
 
-    return izmaksa
 
-cena1 = 2.25
-linoleja_platums1 = 2.0
-platums1 = 5.25
-garums1 = 6.0
+cena = 3.00
+telpas_garums = 4
+telpas_platums = 5
+linoleja_platums = 0.5
+NEEJAM RIT UZ KIMIJU. SAKI VARDU JA. VEL 30 MIN, GRIBU NOMIRT.
+davaj
+es negribu
+NO KIMIJA FOR ME
+FREEDPM
 
-print("izklājot garumā:")
-print(gridas_izmaksa(cena1, linoleja_platums1, platums1, garums1))
-print("izklājot platumā")
-print(gridas_izmaksa(cena1, linoleja_platums1, garums1, platums1))
+
+NEZINU KAPEC TU TA RAKSIT T A S I R T I K D I V A I N I
+
+print('vajadzīgs')
+print(gridas_izmaksas)kas?????????
